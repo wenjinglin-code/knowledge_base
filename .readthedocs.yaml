@@ -3,7 +3,7 @@
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
 # Required
-version: 1
+version: 2
 
 # Set the OS, Python version, and other tools you might need
 build:
@@ -19,7 +19,6 @@ sphinx:
 # Optionally, but recommended,
 # declare the Python requirements required to build your documentation
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# 依赖的 pip 包
 python:
    install:
-   - requirements: pip.txt
+   - requirements: pip.txt # 依赖的 pip 包
